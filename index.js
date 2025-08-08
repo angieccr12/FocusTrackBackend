@@ -1,9 +1,9 @@
 const app = require('./app');
 const http = require('http');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5500;
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen('5500', '0.0.0.0', () => {
   console.log(`✅ Server listening on port ${PORT}`);
 
   // Mantener vivo el servidor en Railway
