@@ -53,12 +53,10 @@
 const express = require('express');
 const app = express();
 
-// Endpoint raíz
 app.get('/', (req, res) => {
-  res.status(200).json({ status: 'ok' });
+  res.type('text/plain').send('ok');
 });
 
-// Health check para Railway
 app.get('/health', (req, res) => {
   res.send('ok');
 });
