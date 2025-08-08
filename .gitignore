@@ -1,0 +1,51 @@
+# Directorios de dependencias
+/node_modules
+
+# Archivos de entorno y configuración
+# Estos a menudo contienen claves API, contraseñas, etc.
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs y bases de datos
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Archivos de base de datos
+*.sqlite
+*.sqlite-journal
+/db/*.sqlite
+/db/*.sqlite-journal
+
+# Directorios de build y distribución
+# Estos son los archivos generados que no necesitas rastrear.
+/build
+/dist
+/public/build
+/public/dist
+
+# Otros archivos
+# Varios archivos de sistema operativo y editores de código.
+.DS_Store
+.idea/
+.vscode/
+
+# Archivos temporales
+*.tmp
+*~
+
+# Directorios de caché
+/cache
+.cache
+
+# Archivos de cobertura de tests
+/coverage
+
+# Archivos de registro de paquetes
+package-lock.json
+# Descomenta la siguiente línea si usas yarn
+# yarn.lock
